@@ -1,0 +1,91 @@
+what is a command?
+
+ls
+
+ls /bin /sbin /usr/bin /usr/sbin
+difference between /bin /sbin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin
+
+man
+
+man hier | grep -E 'bin$|sbin$|^.{7}(/bin)|^.{7}(/sbin)' -A2
+
+
+cd
+pwd
+mkdir
+touch
+rmdir
+rm
+mv
+cp
+head
+tail
+more
+less
+wc
+
+chmod
+	binary
+	augo+/-/=rwx
+
+ps
+top
+
+
+redirection
+pipe
+tee
+
+regex
+
+*
+?
+^a starts with a
+t$ ends with t
+p{2} contains 2 p's
+
+
+=======
+grep
+grep "ERROR" log.txt
+grep -v "INFO" log.txt
+grep -A 5 ERROR log.txt
+grep -B 5 ERROR log.txt
+grep -C 5 ERROR log.txt
+
+tr
+sed
+sed -n '/ERROR/ p' log.txt
+sed 's/ERROR/CRITICAL/' log.txt
+sed -ibackup 's/ERROR/CRITICAL/' log.txt
+sed '3 s/ERROR/CRITICAL/' log.txt
+sed '3,5 s/ERROR/CRITICAL/' log.txt
+sed -n '3,/ERROR/ p' log.txt
+
+=======
+adduser / useradd
+
+passwd 
+chown
+chgrp
+chmod
+ifconfig
+apt-get
+	update
+	upgrade
+	dist-upgrade
+	install
+	remove
+	purge
+	
+
+=======
+df
+du
+
+============
+tar -cvzf arch.tar.gz location
+	z for gunzip
+	j for bzip
+tar -xvzf
+find / -name <file> -print

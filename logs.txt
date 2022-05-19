@@ -1,9 +1,0 @@
-Timestamp       Category        Message
-1598843202      INFO    Booting up system
-1598843402      INFO    Booting up critical service: Authorization
-1598843502      INFO    System booted successfully
-1598853502      INFO    User admin requested access for userlist
-1598863888      ERROR   User annonymous attempt to access protected resource without credentials
-1598863891      INFO    System health check status: passed
-1598863901      ERROR   Requested resource not found
-1598864411      INFO    User admin logged out
