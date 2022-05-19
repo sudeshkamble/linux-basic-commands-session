@@ -1,0 +1,6 @@
+showfiles()
+{
+	ls
+}
+
+showfile

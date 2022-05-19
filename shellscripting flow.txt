@@ -1,0 +1,18 @@
+what is a kernel
+what is a shell
+types of shell
+list of present shells
+current shell
+what is a shell script
+why to write shell script
+writing a shell script
+variables => udv path sysvars builtin shellvars cmdline
+expr
+quotes " ' `
+exit status
+read
+redirection as covered earlier
+functions
+comparisons
+if if-else if-elif-ladder switch-case
+looping
