@@ -16,3 +16,4 @@ functions
 comparisons
 if if-else if-elif-ladder switch-case
 looping
+&& ||
