@@ -1,7 +1,7 @@
 # AWK   
 
 ### Basic awk command  
-```sh
+```awk
 awk -F: '{print $1, $NF}' /etc/passwd
 ```
 | Symbol | Description |
@@ -25,7 +25,7 @@ BEGIN          {<initializations>}
 END            {< final actions >}
 ```
 #### Example
-```
+```awk
 awk -F: '
     BEGIN { print "\n>>>Start" }
     { print NR, $1, $0 }
@@ -61,7 +61,7 @@ awk -F: '{print $1 "=" $6}' /etc/passwd
 |FILENAME|Name of the file
 
 ### AWK blocks
-```
+```awk
 awk 'BEGIN {print "hello world"}'        # Prints "hello world"
 awk -F: '{print $1}' /etc/passwd         # -F: Specify field separator
 
@@ -76,7 +76,7 @@ awk -F: '{print $1} END { print "-done-"}' /etc/passwd
 ```
 
 ### Basic Constructs
-```
+```awk
 #Defining Variables
 awk -v var1="Hello" -v var2="Wold" '
     END {print var1, var2}
@@ -291,7 +291,7 @@ awk 'BEGIN {
 ```
 
 ### AWK conditions
-```
+```awk
 #if else
 awk -v count=2 'BEGIN {
     if (count == 1)
@@ -396,7 +396,7 @@ awk 'BEGIN {
 ```
 
 ### Text formatting
-```
+```awk
 #Right align
 awk 'BEGIN{printf "|%10s|\n", "hello"}'
 
